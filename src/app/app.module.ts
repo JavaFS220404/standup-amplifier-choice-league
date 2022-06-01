@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IceAgeComponent } from './component/ice-age/ice-age.component';
+import { HubertComponentComponent } from './hubert-component/hubert-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IceAgeComponent
+    HubertComponentComponent
   ],
   imports: [
     BrowserModule,
