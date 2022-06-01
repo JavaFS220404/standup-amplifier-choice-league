@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.information{
+    text-align: center;
+    margin-left: 2em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    width: 20em;
+    height: 10em;
+    background-color: lightblue;
+}
