@@ -11,5 +11,9 @@ export class IceAgeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  visible:boolean = true;
 
+  toggle(){
+    this.visible = !this.visible;
+  }
 }

@@ -1,14 +1,15 @@
-<div class="grid-container">
-    <div class="movie-card">
-        <h2>Movie #1</h2>
-        <p>Ice Age</p>
-    </div>
-    <div class="movie-card">
-        <h2>Movie #2</h2>
-        <p>Home</p>
-    </div>
-    <div class="movie-card">
-        <h2>Movie #3</h2>
-        <p>Up</p>
-    </div>
+<h2 class="title" align="center">My favorite movie</h2>
+<div class="movie-card">
+    <h2>Home</h2>
+    <p>A cowardly alien race known as the Boov finds near-future Earth a suitable place to call "home"</p>
 </div>
+<br>
+<br>
+<div class="movie-card" [hidden]="visible">
+<ul>
+   <li>Produced by: DreamWorks Animation</li>
+   <li>Distributed by; 20th Century Fox</li>
+</ul>
+</div>
+<br>
+<button (click)="toggle()" class="button">Click Me</button>
