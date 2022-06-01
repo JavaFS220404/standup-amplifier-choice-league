@@ -1,8 +1,15 @@
 
-<div class="grid-container">
-    <div class="todo-card">
+<div class="grid-container ">
+    <div class="todo-card" >
         <h2>Start #{{start.userName}}</h2>
         <p>{{start.password}}</p>
+        <div class="information" [hidden]="visible">
+            <p>
+                Now we can start with Angular !!!!!! 
+            </p>
+            </div>
     </div>  
 </div>
   <br>
+  <br>
+<button (click)="tostart()">Click Me!</button>

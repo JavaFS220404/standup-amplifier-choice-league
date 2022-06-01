@@ -9,10 +9,14 @@ import { Start } from 'app/models/start';
 })
 export class TostartComponent implements OnInit {
 start:Start= new Start("Fa77","revature");
+visibility:boolean = true;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  tostart(){
+    this.visibility = !this.visibility;
   }
 
 }
