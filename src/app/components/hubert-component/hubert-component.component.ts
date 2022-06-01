@@ -12,4 +12,10 @@ export class HubertComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  visible: boolean = true;
+
+  toggle() {
+    this.visible = false;
+  }
+
 }
